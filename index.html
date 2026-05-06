@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorry, Please?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img class="big-left-stitch" src="assets/stitch-left-big.png" alt="Big Stitch" aria-hidden="true" />
+    <img class="big-right-stitch" src="assets/stitch-right-big.png" alt="Big Stitch" aria-hidden="true" />
+    <main class="app">
+      <section class="progress-wrap" aria-label="progress">
+        <div class="progress">
+          <span class="dot active"></span>
+          <span class="line"></span>
+          <span class="dot"></span>
+          <span class="line"></span>
+          <span class="dot"></span>
+          <span class="line"></span>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <section class="screen active" data-screen="1">
+        <img class="stitch-pic stitch-left" src="assets/stitch-main.png" alt="Stitch" />
+        <img class="stitch-pic stitch-right" src="assets/stitch-main.png" alt="Stitch" />
+        <div class="screen-content">
+          <button class="envelope" type="button" aria-label="Open letter 1">
+            <span class="env-body"></span>
+            <span class="env-flap"></span>
+            <span class="env-heart">💙</span>
+          </button>
+          <article class="letter">
+          <p class="letter-text">
+            Sorryy Vishruthaaaaaaa… I really didn’t mean to hurt you with that... sorryy 🥺
+            <br />
+            Can i make it up for this mistake?
+          </p>
+            <div class="choices">
+              <button class="yes-btn" type="button">Yes 💙</button>
+              <button class="no-btn" type="button">No 🙈</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="2">
+        <img class="stitch-pic stitch-left" src="assets/stitch-main.png" alt="Stitch" />
+        <img class="stitch-pic stitch-right" src="assets/stitch-main.png" alt="Stitch" />
+        <div class="screen-content">
+          <p class="page2-note page2-note-top">hehe i knew its gonna be yess</p>
+          <img class="page2-photo" src="assets/page2-special.png" alt="Special memory" />
+          <button class="envelope" type="button" aria-label="Open letter 2">
+            <span class="env-body"></span>
+            <span class="env-flap"></span>
+            <span class="env-heart">🩵</span>
+          </button>
+          <article class="letter">
+          <p class="letter-text">
+            Vishrutha… i really didn’t kn that you were already having a bad day.
+            I should have waited till u talk to me…. sorryy for that🥺
+            <br />
+            Will a good asparagus and avocado sushi make it up for this?
+          </p>
+            <div class="choices">
+              <button class="yes-btn" type="button">Yes 💙</button>
+              <button class="no-btn" type="button">No 🙈</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="3">
+        <img class="stitch-pic stitch-left" src="assets/stitch-main.png" alt="Stitch" />
+        <img class="stitch-pic stitch-right" src="assets/stitch-main.png" alt="Stitch" />
+        <div class="screen-content">
+          <p class="page2-note page2-note-top">yess again</p>
+          <img class="page2-photo" src="assets/page3-special.png" alt="Special memory" />
+          <button class="envelope" type="button" aria-label="Open letter 3">
+            <span class="env-body"></span>
+            <span class="env-flap"></span>
+            <span class="env-heart">💠</span>
+          </button>
+          <article class="letter needs-confirm">
+            <p class="letter-text">
+              Ohh nice... so sushi date it is !!!
+            </p>
+
+            <section class="mini-form" aria-label="Sushi date">
+              <h3 class="mini-form-title">Sushi date</h3>
+              <label class="mini-form-label" for="sushi-date">Pick a date</label>
+              <input id="sushi-date" class="mini-form-input" type="date" />
+              <p class="mini-form-error hidden">Pick a date first 😤</p>
+              <button class="mini-form-confirm" type="button">Confirm</button>
+            </section>
+
+            <p class="letter-text after-confirm hidden">
+              So will you forgive your cutu sa friend?
+            </p>
+            <div class="choices after-confirm hidden">
+              <button class="yes-btn" type="button">Yes 💙</button>
+              <button class="no-btn" type="button">No 🙈</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="4">
+        <img class="stitch-pic stitch-left" src="assets/stitch-main.png" alt="Stitch" />
+        <img class="stitch-pic stitch-right" src="assets/stitch-main.png" alt="Stitch" />
+        <div class="screen-content">
+          <p class="page2-note page2-note-top page4-reveal">I kn u love me 🥰🥺</p>
+          <img class="page2-photo page4-reveal" src="assets/page4-special.png" alt="Special memory" />
+          <button class="envelope" type="button" aria-label="Open final letter">
+            <span class="env-body"></span>
+            <span class="env-flap"></span>
+            <span class="env-heart">✨</span>
+          </button>
+          <article class="letter">
+          <p class="letter-text">
+            Ohh you made it till here… okay then I’ll consider you’ve forgiven me
+            <br />
+            i love you babygirl
+          </p>
+            <div class="choices">
+            <button class="yes-btn final-yes" type="button">i love u too 😏</button>
+            <button class="no-btn" type="button">no i hate u</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="celebration" aria-live="polite">
+        <h2>Sushi date 🥢</h2>
+        <div class="celebration-date-box">
+          <p class="celebration-date">Sushi date — soon. Waiting for it…</p>
+        </div>
+        <div class="celebration-message-box">
+          <p class="celebration-message">...</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
