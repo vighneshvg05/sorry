@@ -132,7 +132,7 @@ screens.forEach((screen, index) => {
 
       if (celebrationMessage) {
         celebrationMessage.textContent =
-          "Heyy bbg, hope this got a smile on your face. I’m really sorry, Vishruthaaa and I promise I won’t do something like this again. And yess I’ll always try to be the person you can come to when you’re sad and not the person who makes you sad.\n\n" +
+          "Heyy bbg, hope this got a smile on your face. I’m really sorry Vishruthaaa and I promise I won’t do something like this again. And yess I’ll always try to be the person you can come to when you’re sad and not the person who makes you sad.\n\n" +
           "You may not text me for hours, but I also know the fact that whenever something, even a little, is bothering you and you feel sad, I’m the first person you come to. And I’m very lucky that I get to be that person for you. I promise I’ll try my best not to disappoint you in this\n\n"      }
 
       // Put the final card inside page 4 so it doesn't overlap.
